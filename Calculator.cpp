@@ -50,7 +50,7 @@ std::string modify(std::string s) {
     //Replace unary plus with p
     //Replace unary minus with m
     //add * before ( if there's no operator
-    
+
     s = std::regex_replace(s, std::regex(" "), ""); //remove spaces
 
      //Replace unary plus with p
@@ -156,10 +156,11 @@ double result(double a, double b, std::string o) {
     if (o == "*") { return a * b; }
     if (o == "/") { return a / b; }
     if (o == "^") { return pow(a, b); }
+    return 0;
 }
 double EvaluateExpression(std::string exp) {
     std::string postfix = to_postfix(exp); //postfix has spaces but no ()
-
+    std::cout<<"Postfix = "<< postfix<<"\n\n";
     std::regex regex(R"([\s]+)");
     std::vector<std::string> out( // save all space-separated operands and operators to out
         std::sregex_token_iterator(postfix.begin(), postfix.end(), regex, -1),
@@ -193,9 +194,11 @@ int main() {
     std::string expression; int p;
     std::cout << "Enter your mathematical expression : ";
     std::cin >> expression;
+    std::cout << "\n";
     std::cout << "Enter precision (number of decimal places): ";
     std::cin >> p;
-    double result;
-    std::cout << std::fixed << std::setprecision(p) << EvaluateExpression(expression)<<"\n";
+    std::cout << "\n";
+    double result = EvaluateExpression(expression);
+    std::cout << "Answer = " << std::fixed << std::setprecision(p) << result << "\n\n";
     system("pause");
 }
