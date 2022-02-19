@@ -1,5 +1,5 @@
 # BasicCalculator
-Simple console mode calculator that follows BODMAS/PEMDAS, deals with nested parentheses, unary operators, decimal numbers, and powers. Precision of calculation can be varied as well.
+Simple console mode calculator that follows BODMAS/PEMDAS, deals with nested parentheses, negative numbers, unary operators, decimal numbers, and powers. Precision of calculation can be varied as well.
 
 It uses the Shunting Yard Algorithm to convert the input infix expression to postfix notation and then evaluates it.
 
