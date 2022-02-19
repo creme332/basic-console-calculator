@@ -1,5 +1,5 @@
 # BasicCalculator
-![image](https://user-images.githubusercontent.com/65414576/154794970-1ce1c7ce-f436-4796-94de-1bd62e1df459.png)
+![image](https://user-images.githubusercontent.com/65414576/154796235-27b9efe5-34d6-43ac-a74f-bfc8459e16f8.png)
 
 It uses the Shunting Yard Algorithm to convert the input infix expression to postfix notation and then evaluates it. It can also output the postfix representation of an expression.
 
