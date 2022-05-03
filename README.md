@@ -1,6 +1,14 @@
-# 💻 Basic Calculator
-![image](https://user-images.githubusercontent.com/65414576/154796235-27b9efe5-34d6-43ac-a74f-bfc8459e16f8.png)
+# 💻 Terminal-based Calculator
 
+```
+Enter your mathematical expression : 4*(5-3)^4
+
+Enter precision (number of decimal places): 5
+
+Postfix = 4 5 3 - 4 ^ * 
+
+Answer = 64.00000
+```
 Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
 
  # 🚀 Setup #
