@@ -3,7 +3,7 @@
 
 Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
 
-# 👍 Examples of valid terminal input #
+## 👍 Examples of valid expressions ##
 ```cpp
 112+22*(2*(22-53^2*(2))-7/(7/2-1/4)) //-246159.38462
 
@@ -15,7 +15,7 @@ Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipe
 
 2(2)  // same as 2*2
 ```
-# 👎 Examples of invalid terminal input #
+## 👎 Examples of invalid expressions ##
 ```cpp
 1---1 //not supported yet
 2* //incomplete expression
