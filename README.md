@@ -3,6 +3,8 @@
 
 Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
 
+ # 🚀 Setup #
+ Compile the code in `calculator.cpp`. 
 ## 👍 Examples of valid expressions ##
 ```cpp
 112+22*(2*(22-53^2*(2))-7/(7/2-1/4)) //-246159.38462
