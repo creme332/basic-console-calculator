@@ -35,5 +35,5 @@ Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipe
 # 🛑 Current limitations #
 - Range of numbers is limited by `double` data type.
 - No support for trigonometric and logarithmic expressions.
-- No support for expressions containing irrational numbers (eg pi, e)
+- No support for expressions containing irrational numbers ($\pi$, $e$, $\ln 3 + 5$)
 - Input is not validated so all invalid inputs will cause program to crash.
