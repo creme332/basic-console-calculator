@@ -1,4 +1,7 @@
-# 💻 Terminal-based Calculator
+# Calculator 🔰
+
+A simple calculator that supports BODMAS, nested parentheses, unary operators, variable precision, and more. It uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
+
 
 ```
 Enter your mathematical expression : 4*(5-3)^4
@@ -9,11 +12,11 @@ Postfix = 4 5 3 - 4 ^ *
 
 Answer = 64.00000
 ```
-Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to convert an input infix expression to postfix expression before evaluating it.
 
- # 🚀 Setup #
- Compile the code in `calculator.cpp`. 
-## 👍 Examples of valid expressions ##
+ ## 🚀 Usage
+ Download the project using Git (or otherwise) and compile the code in `calculator.cpp`. 
+ 
+### 👍 Examples of valid expressions
 ```cpp
 112+22*(2*(22-53^2*(2))-7/(7/2-1/4)) //-246159.38462
 
@@ -25,14 +28,14 @@ Calculator application that uses the [Shunting Yard Algorithm](https://en.wikipe
 
 2(2)  // same as 2*2
 ```
-## 👎 Examples of invalid expressions ##
+### 👎 Examples of invalid expressions
 ```cpp
 1---1 //not supported yet
 2* //incomplete expression
 7 ^ 7 ^ (2/(4-532)^3) //(No spaces between digits/operators are allowed when inputting directly from console)
 ```
 
-# 🛑 Current limitations #
+## 🛑 Current limitations
 - Range of numbers is limited by `double` data type.
 - No support for trigonometric and logarithmic expressions.
 - No support for expressions containing irrational numbers ($\pi$, $e$, $\ln 3 + 5$)
